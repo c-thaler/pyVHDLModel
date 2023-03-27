@@ -1,0 +1,178 @@
+.. # Template modified by Patrick Lehmann
+     * removed automodule on top, because private members are activated for autodoc (no doubled documentation).
+     * Made sections like 'submodules' bold text, but no headlines to reduce number of ToC levels.
+
+===============
+pyVHDLModel.STD
+===============
+
+.. automodule:: pyVHDLModel.STD
+
+
+.. currentmodule:: pyVHDLModel.STD
+
+
+**Classes**
+
+- :py:class:`PredefinedLibrary`:
+  A ``Library`` represents a VHDL library. It contains all *primary* and *secondary* design units.
+
+- :py:class:`PredefinedMixin`:
+  Undocumented.
+
+- :py:class:`PredefinedPackage`:
+  A ``PrimaryUnit`` is a base-class for all primary units.
+
+- :py:class:`PredefinedPackageBody`:
+  A ``SecondaryUnit`` is a base-class for all secondary units.
+
+- :py:class:`Std`:
+  A ``Library`` represents a VHDL library. It contains all *primary* and *secondary* design units.
+
+- :py:class:`Standard`:
+  A ``PrimaryUnit`` is a base-class for all primary units.
+
+- :py:class:`Standard_Body`:
+  A ``SecondaryUnit`` is a base-class for all secondary units.
+
+- :py:class:`TextIO`:
+  A ``PrimaryUnit`` is a base-class for all primary units.
+
+- :py:class:`TextIO_Body`:
+  A ``SecondaryUnit`` is a base-class for all secondary units.
+
+- :py:class:`Env`:
+  A ``PrimaryUnit`` is a base-class for all primary units.
+
+- :py:class:`Env_Body`:
+  A ``SecondaryUnit`` is a base-class for all secondary units.
+
+
+
+---------------------
+
+**Classes**
+
+
+
+
+.. autoclass:: PredefinedLibrary
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: PredefinedLibrary
+      :parts: 1
+
+.. autoclass:: PredefinedMixin
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: PredefinedMixin
+      :parts: 1
+
+.. autoclass:: PredefinedPackage
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: PredefinedPackage
+      :parts: 1
+
+.. autoclass:: PredefinedPackageBody
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: PredefinedPackageBody
+      :parts: 1
+
+.. autoclass:: Std
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Std
+      :parts: 1
+
+.. autoclass:: Standard
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Standard
+      :parts: 1
+
+.. autoclass:: Standard_Body
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Standard_Body
+      :parts: 1
+
+.. autoclass:: TextIO
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: TextIO
+      :parts: 1
+
+.. autoclass:: TextIO_Body
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: TextIO_Body
+      :parts: 1
+
+.. autoclass:: Env
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Env
+      :parts: 1
+
+.. autoclass:: Env_Body
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Env_Body
+      :parts: 1

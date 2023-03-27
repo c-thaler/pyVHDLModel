@@ -1,0 +1,430 @@
+.. # Template modified by Patrick Lehmann
+     * removed automodule on top, because private members are activated for autodoc (no doubled documentation).
+     * Made sections like 'submodules' bold text, but no headlines to reduce number of ToC levels.
+
+======================
+pyVHDLModel.Concurrent
+======================
+
+.. automodule:: pyVHDLModel.Concurrent
+
+
+.. currentmodule:: pyVHDLModel.Concurrent
+
+
+**Classes**
+
+- :py:class:`ConcurrentStatement`:
+  A ``ConcurrentStatement`` is a base-class for all concurrent statements.
+
+- :py:class:`ConcurrentStatements`:
+  Undocumented.
+
+- :py:class:`Instantiation`:
+  A ``ConcurrentStatement`` is a base-class for all concurrent statements.
+
+- :py:class:`ComponentInstantiation`:
+  A ``ConcurrentStatement`` is a base-class for all concurrent statements.
+
+- :py:class:`EntityInstantiation`:
+  A ``ConcurrentStatement`` is a base-class for all concurrent statements.
+
+- :py:class:`ConfigurationInstantiation`:
+  A ``ConcurrentStatement`` is a base-class for all concurrent statements.
+
+- :py:class:`ProcessStatement`:
+  A ``ConcurrentStatement`` is a base-class for all concurrent statements.
+
+- :py:class:`ConcurrentProcedureCall`:
+  A ``ConcurrentStatement`` is a base-class for all concurrent statements.
+
+- :py:class:`ConcurrentDeclarations`:
+  Undocumented.
+
+- :py:class:`ConcurrentBlockStatement`:
+  A ``ConcurrentStatement`` is a base-class for all concurrent statements.
+
+- :py:class:`GenerateBranch`:
+  A ``GenerateBranch`` is a base-class for all branches in a generate statements.
+
+- :py:class:`IfGenerateBranch`:
+  A ``GenerateBranch`` is a base-class for all branches in a generate statements.
+
+- :py:class:`ElsifGenerateBranch`:
+  A ``GenerateBranch`` is a base-class for all branches in a generate statements.
+
+- :py:class:`ElseGenerateBranch`:
+  A ``GenerateBranch`` is a base-class for all branches in a generate statements.
+
+- :py:class:`GenerateStatement`:
+  A ``GenerateStatement`` is a base-class for all generate statements.
+
+- :py:class:`IfGenerateStatement`:
+  A ``GenerateStatement`` is a base-class for all generate statements.
+
+- :py:class:`ConcurrentChoice`:
+  A ``ConcurrentChoice`` is a base-class for all concurrent choices (in case...generate statements).
+
+- :py:class:`ConcurrentCase`:
+  A ``Case`` is a base-class for all cases.
+
+- :py:class:`GenerateCase`:
+  A ``Case`` is a base-class for all cases.
+
+- :py:class:`OthersGenerateCase`:
+  A ``Case`` is a base-class for all cases.
+
+- :py:class:`CaseGenerateStatement`:
+  A ``GenerateStatement`` is a base-class for all generate statements.
+
+- :py:class:`ForGenerateStatement`:
+  A ``GenerateStatement`` is a base-class for all generate statements.
+
+- :py:class:`ConcurrentSignalAssignment`:
+  A ``ConcurrentStatement`` is a base-class for all concurrent statements.
+
+- :py:class:`ConcurrentSimpleSignalAssignment`:
+  A ``ConcurrentStatement`` is a base-class for all concurrent statements.
+
+- :py:class:`ConcurrentSelectedSignalAssignment`:
+  A ``ConcurrentStatement`` is a base-class for all concurrent statements.
+
+- :py:class:`ConcurrentConditionalSignalAssignment`:
+  A ``ConcurrentStatement`` is a base-class for all concurrent statements.
+
+- :py:class:`ConcurrentAssertStatement`:
+  A ``ConcurrentStatement`` is a base-class for all concurrent statements.
+
+- :py:class:`IndexedGenerateChoice`:
+  A ``ConcurrentChoice`` is a base-class for all concurrent choices (in case...generate statements).
+
+- :py:class:`RangedGenerateChoice`:
+  A ``ConcurrentChoice`` is a base-class for all concurrent choices (in case...generate statements).
+
+
+
+---------------------
+
+**Classes**
+
+
+
+
+.. autoclass:: ConcurrentStatement
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConcurrentStatement
+      :parts: 1
+
+.. autoclass:: ConcurrentStatements
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConcurrentStatements
+      :parts: 1
+
+.. autoclass:: Instantiation
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Instantiation
+      :parts: 1
+
+.. autoclass:: ComponentInstantiation
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ComponentInstantiation
+      :parts: 1
+
+.. autoclass:: EntityInstantiation
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: EntityInstantiation
+      :parts: 1
+
+.. autoclass:: ConfigurationInstantiation
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConfigurationInstantiation
+      :parts: 1
+
+.. autoclass:: ProcessStatement
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ProcessStatement
+      :parts: 1
+
+.. autoclass:: ConcurrentProcedureCall
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConcurrentProcedureCall
+      :parts: 1
+
+.. autoclass:: ConcurrentDeclarations
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConcurrentDeclarations
+      :parts: 1
+
+.. autoclass:: ConcurrentBlockStatement
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConcurrentBlockStatement
+      :parts: 1
+
+.. autoclass:: GenerateBranch
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GenerateBranch
+      :parts: 1
+
+.. autoclass:: IfGenerateBranch
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: IfGenerateBranch
+      :parts: 1
+
+.. autoclass:: ElsifGenerateBranch
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ElsifGenerateBranch
+      :parts: 1
+
+.. autoclass:: ElseGenerateBranch
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ElseGenerateBranch
+      :parts: 1
+
+.. autoclass:: GenerateStatement
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GenerateStatement
+      :parts: 1
+
+.. autoclass:: IfGenerateStatement
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: IfGenerateStatement
+      :parts: 1
+
+.. autoclass:: ConcurrentChoice
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConcurrentChoice
+      :parts: 1
+
+.. autoclass:: ConcurrentCase
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConcurrentCase
+      :parts: 1
+
+.. autoclass:: GenerateCase
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GenerateCase
+      :parts: 1
+
+.. autoclass:: OthersGenerateCase
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: OthersGenerateCase
+      :parts: 1
+
+.. autoclass:: CaseGenerateStatement
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CaseGenerateStatement
+      :parts: 1
+
+.. autoclass:: ForGenerateStatement
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ForGenerateStatement
+      :parts: 1
+
+.. autoclass:: ConcurrentSignalAssignment
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConcurrentSignalAssignment
+      :parts: 1
+
+.. autoclass:: ConcurrentSimpleSignalAssignment
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConcurrentSimpleSignalAssignment
+      :parts: 1
+
+.. autoclass:: ConcurrentSelectedSignalAssignment
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConcurrentSelectedSignalAssignment
+      :parts: 1
+
+.. autoclass:: ConcurrentConditionalSignalAssignment
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConcurrentConditionalSignalAssignment
+      :parts: 1
+
+.. autoclass:: ConcurrentAssertStatement
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConcurrentAssertStatement
+      :parts: 1
+
+.. autoclass:: IndexedGenerateChoice
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: IndexedGenerateChoice
+      :parts: 1
+
+.. autoclass:: RangedGenerateChoice
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: RangedGenerateChoice
+      :parts: 1

@@ -1,0 +1,94 @@
+.. # Template modified by Patrick Lehmann
+     * removed automodule on top, because private members are activated for autodoc (no doubled documentation).
+     * Made sections like 'submodules' bold text, but no headlines to reduce number of ToC levels.
+
+==================
+pyVHDLModel.Common
+==================
+
+.. automodule:: pyVHDLModel.Common
+
+
+.. currentmodule:: pyVHDLModel.Common
+
+
+**Classes**
+
+- :py:class:`Statement`:
+  A ``Statement`` is a base-class for all statements.
+
+- :py:class:`ProcedureCall`:
+  Undocumented.
+
+- :py:class:`Assignment`:
+  An ``Assignment`` is a base-class for all assignment statements.
+
+- :py:class:`SignalAssignment`:
+  An ``SignalAssignment`` is a base-class for all signal assignment statements.
+
+- :py:class:`VariableAssignment`:
+  An ``VariableAssignment`` is a base-class for all variable assignment statements.
+
+
+
+---------------------
+
+**Classes**
+
+
+
+
+.. autoclass:: Statement
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Statement
+      :parts: 1
+
+.. autoclass:: ProcedureCall
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ProcedureCall
+      :parts: 1
+
+.. autoclass:: Assignment
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Assignment
+      :parts: 1
+
+.. autoclass:: SignalAssignment
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SignalAssignment
+      :parts: 1
+
+.. autoclass:: VariableAssignment
+   :members:
+   :private-members:
+   :special-members:
+   :inherited-members:
+   :exclude-members: __weakref__
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VariableAssignment
+      :parts: 1
